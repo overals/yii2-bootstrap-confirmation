@@ -8,7 +8,8 @@ class BootstrapConfirmationAsset extends \yii\web\AssetBundle
 {
     public $sourcePath = '@bower/bootstrap-confirmation2';
     public $js = [
-        'bootstrap-confirmation.min.js',
+        //'bootstrap-confirmation.min.js',
+        'https://cdn.jsdelivr.net/npm/bootstrap-confirmation2@2.4.4/bootstrap-confirmation.min.js',
     ];
     public $depends = [
         'yii\web\JqueryAsset',
